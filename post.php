@@ -1,3 +1,19 @@
+ <link href="css/style.css" rel="stylesheet">
+   
+       <style>
+        body {
+            background-image: url(images/f1.jpg);
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.7);
+            background-blend-mode: multiply;
+            
+        }
+           a:hover{text-decoration: underline}
+       
+       
+    </style>
+<body>
+
 <? 
 // ----------------------------конфигурация-------------------------- // 
 $connection = mysql_connect("localhost", "sa1", "sa1");
@@ -41,8 +57,8 @@ strtolower($email)))
  { 
  
   echo 
-"<center>ENTERED DATA IS INCORRECT! <a 
-href='javascript:history.back(1)'><B>BACK TO FORM</B></a>. "; 
+"<h1>ENTERED DATA IS INCORRECT! <br><a 
+href='javascript:history.back(1)'>BACK TO FORM.</a> </h1>"; 
  
   } 
  
@@ -88,9 +104,11 @@ function reload() {location = \"$backurl\"}; setTimeout('reload()', 6000);
  
 
  
-<p><center>YOUR MESSAGE SEND SUCCESSFULLY! WAIT A SECOND</p>";  
+<h1>YOUR MESSAGE SEND SUCCESSFULLY!<br> WAIT A SECOND</h1>";  
 exit; 
  
  } 
  
 ?>
+
+</body>
