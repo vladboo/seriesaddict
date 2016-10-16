@@ -13,7 +13,7 @@ if(!$connection || !$db)
 $adminemail="vladborodich@yandex.ru";  // e-mail админа 
  
  
-$date=date("d.m.y"); // число.месяц.год 
+$date=date("Y-m-d"); // число.месяц.год 
  
 $time=date("H:i:s"); // часы:минуты:секунды 
  
