@@ -1,9 +1,11 @@
 /* INDEX*/
 @import 'https://fonts.googleapis.com/css?family=Anton|Pacifico|Bungee|Creepster|Holtwood+One+SC|Convergence|Questrial';
 
+
 #p1{
     color: red;
 }
+
 #car-im{
     width: 100%;
 }
@@ -240,5 +242,25 @@ div.fancybox-skin {
     padding-right: 5px;
     padding-top: 5px;
     padding-left: 5px;
+}
+
+
+/*FEEDBACK*/
+form {
+   width: 50%; 
+    margin: 0 auto; 
+    text-align: center;
+}
+.form-control {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: black;
+    color: white;
+}
+.btn.btn-primary {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-color: red; 
+    color: white;
+    font-family: ;
+    font-size: 20px;
 }
 
